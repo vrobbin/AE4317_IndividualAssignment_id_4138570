@@ -5,7 +5,7 @@
 To be able to run the code follow these steps:
 
 > 1. Clone or download this git repository to your local machine and cd into the main folder
-> 2. Within this folder download and unzip *WashingtonOBRace.zip*, this directory should now have all the *.py* files and a folder called *WashingtonOBRace* with inside it subfolders *masksed* and *masksorig*
+> 2. Within this main folder download and unzip *WashingtonOBRace.zip*, the main folder should now have all the *.py* files and a folder called *WashingtonOBRace* with inside it subfolders *masksed* and *masksorig*
 > 2. Create and activate a virtual environment with Python 3.7 (earlier Python3 releases might also be ok)
 > 3. Install dependencies into the virtual environment using *pip install -r requirements.txt*
 > 4. cd into the main folder (the folder with all *.py* files) before running any scripts/functions.

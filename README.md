@@ -12,7 +12,7 @@ To be able to run the code follow these steps:
 
 ## Generating ROC Curves:
 
-To generate an ROC curve, the python script *RocCurves.py* should be used.
+To generate an ROC curve, the python script *RocCurves.py* should be used. Note generating an ROC curve may take a few minutes since it loops over all the images multiple times.
 
 The main parameters that can be adjusted for this script are found at the top:
 

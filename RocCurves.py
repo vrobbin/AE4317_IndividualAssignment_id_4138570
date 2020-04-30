@@ -16,9 +16,6 @@ templates = ['8', '13', '27', '48', '60', '73', '113', '126', '131', '141', '165
 
 #-----------------------------------------------------------------------------------------------------------
 
-# set current directory to current file directory so we start in the right folder
-os.chdir(os.path.dirname(__file__))
-print(__file__)
 
 # First the trainingdata as well as the images for detection are collected
 data = collecttrainingdata("./WashingtonOBRace", templates)

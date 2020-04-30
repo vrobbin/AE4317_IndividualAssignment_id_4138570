@@ -162,7 +162,7 @@ if __name__ == '__main__':
     # ---------------------------------------------------------------------------------------------------------------
     # Here is included a sample code of how the function sift_detection2 can be used
 
-    dir = "C:\\Users\\Robbin\\PycharmProjects\\ObjectDetectionMAV\\WashingtonOBRace"
+    dir = "\\WashingtonOBRace"
     files = [f.split('_')[1].split('.')[0] for f in listdir(dir) if isfile(join(dir, f))]
 
     trainlist = sift_trainpoints(['8', '13', '27', '48', '60'], 1)
